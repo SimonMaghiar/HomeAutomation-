@@ -1,0 +1,32 @@
+ <add name="DefaultConnection" connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\aspnet-Vidly-20190412111704.mdf;Initial Catalog=aspnet-Vidly-20190412111704;Integrated Security=True;User Instance=True"
+      providerName="System.Data.SqlClient" />
+
+
+Password:Test123!
+
+Creating a database for you application:
+Step 1:
+
+<connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source=DESKTOP-3F74RVB\SQLEXPRESS;Initial Catalog=HomeAutomation;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+Step 2:
+
+add-migrations Init
+
+Step 3:
+
+update-database
+
+Step 4:
+
+project-> properties
+
+Step 5:  -> It can be Step 1 also (probably it's better)
+
+Web: 
+
+Local IIS Create Virtual Directory
+
